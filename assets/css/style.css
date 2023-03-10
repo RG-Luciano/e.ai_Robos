@@ -1,3 +1,14 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Open Sans' sans-serif;
+}
 body{
-    background-image: url(../img/backgroundp.png);
+    background-image: url(../img/background.png);
+}
+header img{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 40%;
 }
