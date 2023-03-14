@@ -14,18 +14,23 @@ a{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0;
 }
+
 a img{
     margin-left: 20px;
     width: 40%;
 }
+.logo-marca a img{
+    margin-left: 25px;
+}
 .bi{
     color: white;
     font-size: 40px;
+    border: none;
 }
 button{
     background: none;
@@ -34,21 +39,57 @@ button{
 .menu {
     display:none; 
     width: 25%; 
-    height: 40%;
+    height: 30%;
     border-radius: 0 20px 20px 0;
-    position: absolute; 
+    position:absolute; 
     background: rgb(2, 25, 39);
     top: 0; 
     left: 0;
     z-index: 99;
 }
+.menu .bi{
+    margin-top: 40px;
+}
 .btn-closee{
     color: #fff; 
     margin-left: 20px;
     cursor: pointer; 
-    
 }
 .menu ul li .bi{
     margin: -10px;
     padding-left: 0;
+    font-size: 40px;
+}
+
+.valor h1{
+    margin: auto;
+    display: block;
+    margin-top: 18%;
+    color: #ffff;
+    text-align: center;
+    font-size: 1.9em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.valor img{
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    width: 50%;
+    
+}
+.ola{
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+}
+footer .icones{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 60px;
+}   
+.icones .bi{
+    position: fixed;
+    bottom: 10px;
 }
