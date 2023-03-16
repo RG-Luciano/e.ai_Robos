@@ -6,42 +6,37 @@
     <link rel="icon" href="../assets/img/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>e.ai Robôs</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning">
-            <div class="container">
-                <a href="index.html"><img src="../assets/img/logo.png" alt="Imagem1" width="142" class="navbar-brand" ></a>
-            </div>
+    <header><!-- inicio Cabecalho -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+          <div class="container">
+            <a href="../views/index.html" class="navbar-brand">
+              <img src="../assets/img/logo.png" width="142">
+            </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
                 <i class="bi bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="nav-principal">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a href="https://www.linkedin.com/company/eai-tecnologias-inteligentes/" class="nav-link">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://api.whatsapp.com/send?phone=5581991620608&text=Ol%C3%A1%2C+encontrei+voc%C3%AAs+no+Instagram+e+quero+saber+mais+sobre+os+servi%C3%A7os+da+e.A%C3%8D" class="nav-link">
-                            <i class="bi bi-whatsapp"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href:="//www.instagram.com/e.aitecnologiasinteligentes/" class="nav-link">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/company/eai-tecnologias-inteligentes/" class="nav-link"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://api.whatsapp.com/send?phone=5581991620608&text=Ol%C3%A1%2C+encontrei+voc%C3%AAs+no+Instagram+e+quero+saber+mais+sobre+os+servi%C3%A7os+da+e.A%C3%8D" class="nav-link"><i class="bi bi-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="//www.instagram.com/e.aitecnologiasinteligentes/" class="nav-link"><i class="bi bi-instagram"></i></a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
-    </header>
-    <!--
+      </header><!--/fim Cabecalho -->
     <main class="qualidade">
         <div class="valor">
             <h1>
@@ -49,32 +44,28 @@
             </h1>
             <img src="../assets/img/selo.png" alt="Imagem2">
         </div>
+        <div class="principal">
+          <H1>Depoimentos</H1>
+          <div class="depoimentos">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corrupti qui quidem earum nam consectetur unde molestias ea vel labore eaque iste incidunt minima quisquam magni deserunt, explicabo cupiditate ipsam reprehenderit minus. Sapiente ratione totam inventore architecto magnam corporis voluptatum maiores aliquid amet omnis earum, quae quia, labore doloribus, quos veniam dolorem eos fugit facilis.
+            <img src="../assets/img/depoimento.png" alt="depoimento">
+          </div>
+        </div>
     </main>
     <footer>
-        <div class="ola">
-            <img src="../assets/img/footer.png" alt="" width="100%" bottom="0">
+        <div class="imgfooter">
+            <img src="../assets/img/footer.png" alt="footer" width="100%" bottom="0">
         </div>
-        <div class="icones">
+        <div class="icones ">
             <a href="#"><i class="bi bi-person-fill"></i></a>
+            <a href="../views/index.html"><i id="localizador" class="bi bi-house-fill" ></i></a>
             <a href="../views/produtos.html"><i class="bi bi-bag-fill"></i></a>
         </div>
     </footer>
-    -->
     <!-- JQUERY --> 
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script>
-    
-    
-
-    $(document).ready(function () {
-    $(".btn-menu").click(function (e) {
-        $(this).closest('.menu_btn').toggleClass("hover");
-        e.stopPropagation();
-    });
-    $(document).on('click', function (e) {    
-        if (!$(e.target).closest('.hover').length) $('.menu_btn').removeClass("hover");
-        });
-    });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

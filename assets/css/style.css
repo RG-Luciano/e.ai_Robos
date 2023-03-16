@@ -7,65 +7,41 @@
 body{
     background-image: url(../img/background.png);
 }
+header li{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 14px;
+}
+nav ul li{
+    display: flex;
+    align-items: flex-end;
+}
+nav.navbar-transparente {
+	background: rgba(2, 25, 40, 0.61); 
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(2, 25, 40, 0.61);
+    border: none!important;
+    outline: none!important;
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
     opacity: 0.9;
 }
-header{
-    display: flex;
-    justify-content:space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0;
-}
-
-a img{
-    margin-left: 20px;
-    width: 40%;
-}
-.logo-marca a img{
-    margin-left: 25px;
-}
 .bi{
     color: white;
-    font-size: 40px;
-    border: none;
-}
-button{
-    background: none;
-    border: none;
-}
-.menu {
-    display:none; 
-    width: 25%; 
-    height: 30%;
-    border-radius: 0 20px 20px 0;
-    position:absolute; 
-    background: rgb(2, 25, 39);
-    top: 0; 
-    left: 0;
-    z-index: 99;
-}
-.menu .bi{
-    margin-top: 40px;
-}
-.btn-closee{
-    color: #fff; 
-    margin-left: 20px;
-    cursor: pointer; 
-}
-.menu ul li .bi{
-    margin: -10px;
-    padding-left: 0;
     font-size: 40px;
 }
 
 .valor h1{
     margin: auto;
     display: block;
-    margin-top: 18%;
-    color: #ffff;
+    margin-top: 28%;
+    color: white;
     text-align: center;
     font-size: 1.9em;
     margin-left: 20px;
@@ -74,11 +50,11 @@ button{
 .valor img{
     margin: auto;
     display: block;
-    margin-top: 40px;
+    margin-top: 100px;
     width: 50%;
     
 }
-.ola{
+.imgfooter{
     position: fixed;
     bottom: 0;
     height: 10%;
@@ -87,9 +63,43 @@ footer .icones{
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
-    margin-right: 60px;
-}   
+}
+footer .icones:last-child{
+    margin-right: 70px;
+}
+
 .icones .bi{
     position: fixed;
-    bottom: 10px;
+    bottom: 11px;
+    padding: 0;
+} 
+.icones #localizador{
+    background-color: #952424;
+    border-radius: 50px;
+    text-align: center;
+    width: 60px;
+}
+.principal h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9em;
+    color: white;
+}
+.depoimentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgba(96, 93, 93, 0.456);
+    font-size: 1em;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.depoimentos img{
+    width: 10%px;
 }
