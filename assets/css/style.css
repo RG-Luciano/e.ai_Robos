@@ -103,3 +103,28 @@ footer .icones:last-child{
 .depoimentos img{
     width: 10%px;
 }
+
+p{
+    color: aliceblue;
+ }
+ 
+ .button {
+     background-color: #dd0909; /* Red */
+     border-radius: 50px;
+     color: white;
+     padding: 5px 52px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: bold;
+   }
+ 
+   img{
+     margin-top: 20px;
+     padding-left: 450px;
+   }
+  
+   label{
+  color:aliceblue;
+   }
