@@ -13,19 +13,32 @@
     </head>
 <body>
 
-   <img src="../assets/img/logo.png" alt="Imagem da logo"/>
-
-   <fieldset>
-   <label>Usuário<br />
-    <input type="text" name="Username" /></label><br />
-   </label>
-
-   <label>Senha<br />
-    <input type="password" name="password" /></label><br />
-   </label>
-  </fieldset>
-   
-   <input type="button" class="button" value="Entrar">
+    <div class="cabecalho">
+        <div class="imagem">
+            <img src="../assets/img/logo.png" alt="Imagem da logo"/>
+        </div>
+    </div>
+    <div class="login">
+        <fieldset>
+            <div class="dados">
+                <label>Usuário<br />
+                    <input type="text" name="Username" placeholder="Digite seu usuário"/></label><br />
+                </label>
+                <label>Senha<br />
+                    <input type="password" name="password" placeholder="Digite sua senha" /></label><br />
+                </label>
+            </div>
+            <input type="button" class="botaologin" value="Entrar">
+        </fieldset>
+        <div class="botoes">
+            <a href="#"><button><img src="../assets/img/gmail.png" alt=""></i> Entrar com Google</button></a>
+            <a href="#"><button><img src="../assets/img/facebook.png" alt=""></i> Entrar com Facebook</button></a>
+        </div>
+        <div class="novo">
+            <a href="#">Esqueci minha senha</a>
+            <a href="#">Não possui cadastro? </a>
+        </div>
+    </div>
     
 </body>
 </html>

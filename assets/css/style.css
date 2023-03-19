@@ -103,28 +103,91 @@ footer .icones:last-child{
 .depoimentos img{
     width: 10%px;
 }
-
-p{
-    color: aliceblue;
- }
- 
- .button {
-     background-color: #dd0909; /* Red */
-     border-radius: 50px;
-     color: white;
-     padding: 5px 52px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     font-weight: bold;
-   }
- 
-   img{
-     margin-top: 20px;
-     padding-left: 450px;
-   }
-  
-   label{
-  color:aliceblue;
-   }
+.cabecalho .imagem img{
+    width: 230px;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset label:first-child{
+    margin-top: 60px;
+}
+.login fieldset label{
+    margin-top: 20px;
+}
+.login .botoes a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.botaologin {
+    margin: auto;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #952424;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+.login label{
+  color:white;
+}
+.login .dados input{
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    color: gray;
+    padding-left: 5px ;
+    outline: 0;
+    width: 300px;
+}
+.login input::placeholder{
+    color: gray;
+    font-size: 0.8em;
+    padding-left: 3px;
+}
+.login.botoes{
+    cursor: pointer;
+}
+.login .botoes img{
+    width: 20px;
+}
+.login .botoes button{
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+    outline: 0;
+}
+.login a:link {
+    text-decoration: none;
+}
+.login .novo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.novo{
+    margin-top: 20px;
+    text-decoration: underline white;
+    
+}
+.novo a{
+    color: white;
+}
+.novo a:hover{
+    color: grey;
+    text-decoration: underline grey;
+}
